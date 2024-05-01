@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #14213d;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #14213d ;
+}
+
+b{
+    font-weight: 700;
+}
+
+a{
+    word-wrap: break-word;
+}
+
+.title-navbar{
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    padding: 25px;
+    color: white;
+    font-weight: 800;
+}
+
+.content {
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+footer {
+    background-color: #e5e5e5;
+    color: #fff;
+    text-align: center;
+    padding-bottom:0px;
+}
+
+.img-footer{
+    width: 110px;
+    background: white;
+    padding: 4px 10px 10px 10px;
+    position: relative;
+    top: 4px;
+}
+
+.profile-card {
+    max-width: 1660px;
+    margin: 50px auto;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+}
+
+.profile-img {
+    width: 619px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.profile-info {
+    padding: 20px;
+    padding-top: 0px;
+    padding-left: 85px;
+}
+
+.profile-info h2 {
+    margin-bottom: 10px;
+    margin-top:28px;
+    font-weight: 100;
+}
+
+.profile-info p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+/* Resolucion mobile */
+@media only screen and (max-width: 768px) {
+
+    .content {
+        margin: 20px 20px;
+        padding: 0 20px;
+    }
+
+    .title-navbar{
+        text-align: center;
+        width: 100%;
+        font-size: 35px;
+        padding: 15px 5px 5px 5px;
+        font-weight: 800;
+    }
+    .profile-card {
+        flex-direction: column;
+    }
+
+    .profile-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .profile-info {
+        padding: 20px 10px;
+    }
+}
